@@ -1,0 +1,16 @@
+# Este é um arquivo de exemplo. 
+# Copie este arquivo para key.properties e preencha com suas informações reais.
+# NUNCA faça commit do arquivo key.properties no Git!
+
+storePassword=SuaSenhaDoStore
+keyPassword=SuaSenhaDaChave
+keyAlias=piscina
+storeFile=C:\\caminho\\para\\seu\\keystore\\piscina-release.keystore
+
+# INSTRUÇÕES:
+# 1. Copie este arquivo: cp key.properties.example key.properties
+# 2. Preencha as informações acima com os valores reais
+# 3. O storeFile deve usar barras duplas (\\\\) no Windows ou barras simples (/) no Linux/Mac
+# 4. Para gerar o keystore, execute:
+#    keytool -genkeypair -v -keystore C:\caminho\piscina-release.keystore -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias piscina
+

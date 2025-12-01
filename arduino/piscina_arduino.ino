@@ -20,8 +20,8 @@
 // ===============================================
 // CONFIGURAÇÕES DE REDE
 // ===============================================
-const char* ssid = "WIFI_ADM_CFP502";
-const char* password = "Ac5ce0ss2@Adm";
+const char* ssid = "WIFI_EDUC_CFP502";
+const char* password = "Ac5ce0ss2@Educ";
 const int serverPort = 80;
 
 // ===============================================

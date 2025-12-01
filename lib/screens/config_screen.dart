@@ -174,7 +174,7 @@ class _ConfigScreenState extends State<ConfigScreen> {
                       'Configurações Gerais',
                       style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
-                    SizedBox(height: 16),
+                    SizedBox(height: 12),
                     SwitchListTile(
                       title: Text('Sincronização Automática'),
                       subtitle: Text('Enviar dados automaticamente para ESP32'),
@@ -216,7 +216,7 @@ class _ConfigScreenState extends State<ConfigScreen> {
                     ),
                   ),
                 ),
-                SizedBox(width: 10),
+                SizedBox(width: 5),
                 Expanded(
                   child: ElevatedButton.icon(
                     onPressed: _loading ? null : _salvarConfiguracoes,
